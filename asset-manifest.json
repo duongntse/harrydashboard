@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/harrydashboard/static/css/main.65b3cfc5.chunk.css",
+    "main.js": "/harrydashboard/static/js/main.4f18563c.chunk.js",
+    "main.js.map": "/harrydashboard/static/js/main.4f18563c.chunk.js.map",
+    "runtime-main.js": "/harrydashboard/static/js/runtime-main.94703507.js",
+    "runtime-main.js.map": "/harrydashboard/static/js/runtime-main.94703507.js.map",
+    "static/js/2.021bffae.chunk.js": "/harrydashboard/static/js/2.021bffae.chunk.js",
+    "static/js/2.021bffae.chunk.js.map": "/harrydashboard/static/js/2.021bffae.chunk.js.map",
+    "index.html": "/harrydashboard/index.html",
+    "precache-manifest.a88e16974f7905113942bc9ea63c6b13.js": "/harrydashboard/precache-manifest.a88e16974f7905113942bc9ea63c6b13.js",
+    "service-worker.js": "/harrydashboard/service-worker.js",
+    "static/css/main.65b3cfc5.chunk.css.map": "/harrydashboard/static/css/main.65b3cfc5.chunk.css.map",
+    "static/js/2.021bffae.chunk.js.LICENSE.txt": "/harrydashboard/static/js/2.021bffae.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.94703507.js",
+    "static/js/2.021bffae.chunk.js",
+    "static/css/main.65b3cfc5.chunk.css",
+    "static/js/main.4f18563c.chunk.js"
+  ]
+}
