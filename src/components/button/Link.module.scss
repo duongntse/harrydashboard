@@ -1,0 +1,33 @@
+div.link {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px 0px;
+    // background-color: #f7f7f7;
+    // border-radius: 5px;
+    // box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    line-height: 1em;
+
+    a.a {
+        color: #aaa;
+        display: block;
+        padding: 8px;
+        text-decoration: none;
+    }
+
+    a.a:hover:not(.active):not(.titlelink) {
+        background-color: #111;
+        color: #eee;
+        font-size: 1em;
+        font-weight: 500;
+        margin-bottom: 0px;
+        border-radius: 5px;
+    }
+
+    a.a.active {
+        background-color: green;
+        color: white;
+        font-weight: 500;
+        border-radius: 5px;
+    }
+
+}

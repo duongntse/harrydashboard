@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			.flex-container {
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+				/* flex-wrap: wrap; */
+				align-items: center;
+				background-color: DodgerBlue;
+				height: 50vh;
+			}
+
+			.flex-container > div {
+				background-color: #f1f1f1;
+				width: 100px;
+				margin: 10px;
+				text-align: center;
+				line-height: 75px;
+				font-size: 30px;
+			}
+
+			div.flex-container > div:nth-last-child(1) {
+				background-color: green;
+				align-self: flex-start;
+			}
+
+			.child--featured {
+				align-self: flex-start;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Flexible Boxes</h1>
+
+		<div class="flex-container">
+			<div class="child child--featured child--huge-text">1</div>
+			<div class="child child--featured child--huge-text">2</div>
+			<div>3</div>
+			<div>4</div>
+			<div>5</div>
+			<div>6</div>
+			<div>7</div>
+			<div>8</div>
+		</div>
+
+		<p>Try to resize the browser window.</p>
+		<p>A container with "flex-wrap: nowrap;" will never wrap its items.</p>
+		<p>
+			<strong>Note:</strong> Flexbox is not supported in Internet Explorer
+			10 or earlier versions.
+		</p>
+	</body>
+</html>
